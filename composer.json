@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-0": {
+      "CarApi": "car/"
+    }
+  },
+  "require": {
+    "webonyx/graphql-php": "^0.11.6"
+  }
+}
