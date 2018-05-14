@@ -35,11 +35,11 @@ From here you can clone the project using :
 
 `git clone https://github.com/fkhannouf/car_api.git`
 
-Install the project dependcies :
+Install the project dependencies :  
 `composer install -d car_api`  
 `composer dump-autoload -o -d car_api`
 
-Now, get into the project directory then create a symlink in /var/www :
+Now, get into the project directory then create a symlink in /var/www :  
 `sudo ln -s /home/vagrant/car_api /var/www/`
 
 Create an Apache VirtualHost configuration file at `/etc/apache2/sites-enabled/car-api.conf` using the command below :
