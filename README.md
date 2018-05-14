@@ -49,7 +49,7 @@ Create an Apache VirtualHost configuration file at `/etc/apache2/sites-enabled/c
 You can restart the Apache server :  
 `sudo service apache2 restart`
 
-#Running
+# Running
 
 The service is now reachable at `http://car-api.local:8080`
 
