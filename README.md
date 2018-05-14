@@ -35,8 +35,8 @@ From here you can clone the project using :
 
 `git clone https://github.com/fkhannouf/car_api.git`
 
-Run install the project dependcies :
-`composer install -d car_api`
+Install the project dependcies :
+`composer install -d car_api`  
 `composer dump-autoload -o -d car_api`
 
 Now, get into the project directory then create a symlink in /var/www :
